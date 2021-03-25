@@ -1,0 +1,14 @@
+<?xml version='1.0' encoding='utf-8'?>
+<widget id="com.demo.app" version="1.0.0" xmlns="http://www.w3.org/ns/widgets" xmlns:android="http://schemas.android.com/apk/res/android" xmlns:cdv="http://cordova.apache.org/ns/1.0">
+    <name>DemoApp</name>
+    <description>Demo Application</description>
+    <author href="https://github.com/h4ckrOOt">H4ckr00t</author>
+    <content src="index.html" />
+    <hook src="cdv-hooks/build-webapp.js" type="before_build" />
+    <hook src="cdv-hooks/build-nw.js" type="after_build" />
+    <hook src="cdv-hooks/clean-nw-platform.js" type="before_prepare" />
+    <access origin="https://*" />
+    <allow-intent href="http://*/*" />
+    <allow-intent href="https://*/*" />
+    <engine name="browser" spec="6.0.0" />
+</widget>

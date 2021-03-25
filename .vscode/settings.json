@@ -1,0 +1,16 @@
+{
+    "editor.tabSize": 2,
+    "editor.insertSpaces": true,
+    "editor.detectIndentation": false,
+    "editor.rulers": [
+        120
+    ],
+    "files.trimTrailingWhitespace": true,
+    "files.insertFinalNewline": true,
+    "files.eol": "\n",
+    "[json]": {
+        "files.insertFinalNewline": false
+    },
+    "javascript.format.insertSpaceBeforeFunctionParenthesis": true,
+    "typescript.tsdk": "node_modules/typescript/lib"
+  }

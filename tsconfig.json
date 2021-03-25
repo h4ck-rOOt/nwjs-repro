@@ -1,0 +1,23 @@
+{
+  "compilerOptions": {
+    "module": "umd",
+    "target": "es6",
+    "moduleResolution": "node",
+    "outDir": "./prebuild",
+    "rootDir": "./src",
+    "baseUrl": ".",
+    "allowSyntheticDefaultImports": true,
+    "noEmitOnError": true,
+    "esModuleInterop": true,
+    "lib": [
+      "dom",
+      "es5",
+      "es6",
+      "es2016.array.include"
+    ]
+  },
+  "exclude": [
+    "node_modules",
+    "./src/nw"
+  ]
+}

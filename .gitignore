@@ -1,0 +1,14 @@
+/cache/
+/node_modules/
+/platforms/
+/plugins/
+/temp/
+/www/
+/prebuild/
+/src/nw/node_modules/
+
+# Generic
+.DS_STORE
+Thumbs.db
+
+!/www/.gitkeep
